@@ -39,8 +39,6 @@ This results in two separate delivery guarantees: the Area Gateway retains telem
 
 This scenario describes how telemetry delivery behaves when the Area Gateway, network, RabbitMQ connection, or Central Panel processing path becomes temporarily unavailable.
 
-[PASTE Sequence Diagram - Message Delivery: Area Gateway → Central Panel - Failure Handling]
-
 ### Flow
 
 1. **An event can be lost before it reaches the Area Gateway.**  
@@ -67,7 +65,7 @@ Local workplace communication is handled entirely within the production area and
 
 The runtime scenario contains two independent flows: continuous machine-event delivery and execution of workplace commands.
 
-[PASTE Sequence Diagram - Message Delivery: Area Gateway → Local Workplace]
+![Area Gateway to Workplace](../assets/gateway-to-workplace-sequence-diagram.png)
 
 ### Machine Event Delivery
 
@@ -108,8 +106,6 @@ The runtime scenario contains two independent flows: continuous machine-event de
 
 The Recent Event Journal provides short-term recovery when the SSE connection between a Workplace and its Area Gateway is interrupted.
 
-[PASTE Sequence Diagram - Area Gateway → Local Workplace - Connection Recovery]
-
 ### Flow
 
 1. **The SSE connection is lost.**  
@@ -148,7 +144,7 @@ This recovery mechanism is limited by the retention period of the Recent Event J
 
 Configuration changes are created centrally, published explicitly, retrieved by the corresponding Area Gateway, validated locally, and activated only after successful validation.
 
-[PASTE Sequence Diagram - Configuration Update]
+![Configuration Update](../assets/configuration-sequence-diagram.png)
 
 The configuration lifecycle is divided into four stages.
 
