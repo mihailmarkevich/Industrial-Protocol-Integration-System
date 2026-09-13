@@ -18,7 +18,7 @@ Before introduction of the Industrial Protocol Integration System, workplace app
 
 Each integration may therefore depend on a particular industrial protocol, machine model, vendor interface, or data representation.
 
-[PASTE Existing System Overview Diagram]
+![Legacy State](../assets/legacy-stand.png)
 
 ### Problems of the Existing Architecture
 
