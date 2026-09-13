@@ -14,7 +14,7 @@ The selected scenarios focus on the behavior that is architecturally relevant fo
 
 This scenario shows the normal telemetry delivery path from an industrial machine through the Area Gateway and RabbitMQ into the Central Panel.
 
-[PASTE Sequence Diagram - Message Delivery: Area Gateway → Central Panel]
+![Area Gateway to Central Panel](../assets/gateway-to-central-panel-sequence-diagram.png)
 
 ### Flow
 
