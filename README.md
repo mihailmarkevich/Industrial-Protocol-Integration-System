@@ -47,7 +47,7 @@ Each Area receives its own **Area Gateway**, responsible only for the machines a
 
 A separate **Central Panel** provides centralized telemetry, configuration, monitoring, reporting, and analytics.
 
-**[Insert: System Landscape Diagram]**
+![System Landscape Diagram](./assets/system-landscape-business-context.png)
 
 The main architectural principles are:
 
