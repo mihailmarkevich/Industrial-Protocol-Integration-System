@@ -1,6 +1,6 @@
 # 7. Deployment View
 
-[PASTE Deployment Diagram - Production Environment]
+![Deployment View](./assets/deployment-diagramm.png)
 
 The deployment is divided into multiple independent production areas and centralized infrastructure.
 

@@ -9,7 +9,7 @@ The Building Block View describes the internal structure of the two main softwar
 
 ### 5.1.1 Container View
 
-[PASTE Area Gateway Container Diagram]
+![Gateway Container Diagram](../assets/gateway-container-diagramm.png)
 
 The Area Gateway consists of two containers.
 
@@ -33,7 +33,7 @@ The Gateway Application communicates with:
 
 ### 5.1.2 Gateway Application - Component View
 
-[PASTE Area Gateway Component Diagram]
+![Gateway Component Diagram](../assets/gateway-component-diagramm.png)
 
 The Gateway Application is decomposed into the following architecturally relevant components.
 
@@ -106,7 +106,7 @@ It receives and permanently stores telemetry from Area Gateways, provides centra
 
 ### 5.2.1 Container View
 
-[PASTE Central Panel Container Diagram]
+![Central Panel Container Diagram](../assets/central-panel-container-diagramm.png)
 
 The Central Panel consists of the following containers.
 

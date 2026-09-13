@@ -15,7 +15,7 @@ Existing machines, workplace applications, reporting applications, and users rem
 
 The Business Context describes who interacts with the Industrial Protocol Integration Solution and for what purpose, independently of concrete communication technologies.
 
-[PASTE Business Context Diagram]
+![Business Context](../assets/system-landscape-business-context.png)
 
 | Communication Partner | Interaction with the Solution | Purpose |
 |---|---|---|
@@ -43,7 +43,7 @@ The Technical Context describes how the communication relationships shown in the
 
 It focuses on system boundaries and communication technologies. Internal implementation details such as databases, internal services, protocol adapter structure, or message-processing components are described in later sections.
 
-[PASTE Technical Context Diagram]
+![Technical Context](../assets/system-landscape-technical-context.png)
 
 | Communication | Technical Interface | Description |
 |---|---|---|
